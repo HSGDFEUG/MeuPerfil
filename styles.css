@@ -1,0 +1,89 @@
+/* Estilo global */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; /* Remover margem global para todos os elementos */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9eff1; /* Um tom de azul mais claro para um visual mais profissional */
+    color: #333;
+    min-height: 100vh;
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.container {
+    max-width: 700px; /* Largura máxima */
+    width: 100%; /* Para usar a largura total até o máximo */
+    padding: 20px; /* Adiciona algum espaçamento */
+    background-color: white; /* Fundo branco para a área de conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+}
+
+/* Estilo do cabeçalho */
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #005f99; /* Cor de fundo mais escura para o cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais intensa */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo principal */
+main {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adiciona um pouco de espaçamento ao redor do conteúdo */
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+div h2 {
+    color: #005f99; /* Mudando a cor para se alinhar com o cabeçalho */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #005f99; /* Ajustando a cor da borda */
+    padding-bottom: 5px;
+}
+
+div p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo do link de contato */
+div:last-child p {
+    font-weight: bold;
+    color: #005f99; /* Mudando a cor do contato para se alinhar com o tema */
+    font-size: 1.1em;
+    text-align: center;
+}

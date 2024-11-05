@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrebarriga</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adicionando estilo para a imagem */
+        .hidden {
+            display: none; /* Esconde a imagem inicialmente */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre Mim</h1>
+        <p>Gabriel Pelegrino Viganigo</p>
+        <p>15 Anos</p>
+        <p>Email: pelegrinogabriel9@gmail.com</p>
+        <p>
+            <a href="https://github.com/HSGDFEUG">GIT HUB</a>
+        </p>
+        <p>São Leopoldo/RS</p>
+        <p>Faço Curso de computação</p>
+        <button id="showImageBtn">Mostrar Imagem</button> <!-- Botão para mostrar a imagem -->
+        <img id="myImage" src="tuops.jpg" alt="Minha Foto" class="hidden"> <!-- Imagem inicialmente escondida -->
+    </div>
+
+    <script>
+        // Função para mostrar a imagem
+        document.getElementById("showImageBtn").addEventListener("click", function() {
+            document.getElementById("myImage").classList.toggle("hidden"); // Alterna a classe "hidden"
+        });
+    </script>
+</body>
+</html>
